@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>关于 | Gridea</title>
-<link rel="shortcut icon" href="https://Blogstudio.github.io/favicon.ico?v=1625641932116">
+<link rel="shortcut icon" href="https://Blogstudio.github.io/favicon.ico?v=1625649664242">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://Blogstudio.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="关于 | Gridea - Atom Feed" href="https://Blogstudio.github.io/atom.xml">
@@ -27,7 +27,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://Blogstudio.github.io">
-  <img class="avatar" src="https://Blogstudio.github.io/images/avatar.png?v=1625641932116" alt="">
+  <img class="avatar" src="https://Blogstudio.github.io/images/avatar.png?v=1625649664242" alt="">
   </a>
   <h1 class="site-title">
     Gridea
@@ -126,6 +126,32 @@
 
         
 
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '35919d58847c6f65d228',
+    clientSecret: '75f9be0813023913b3806c2a81575e305e97bba1',
+    repo: 'Blogstudio.github.io',
+    owner: 'Blogstudio',
+    admin: ['Blogstudio'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
         
 
         <div class="site-footer">
